@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 25px solid #2B81AC;
+	background-color: #3399CC;
+	color: #FFF;
+	margin: 0;
+}
+.ba-container {
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0 20px;
+}
+.ba-header .ba-footer {
+	padding: 30px 0;
+}
+.ba-cities .ba-city {
+    display: inline-block;
+    text-align: center;
+	padding: 30px 10px;
+	border: 3px solid #FFF;
+	font-size: 26px;
+	width: 25%;
+	vertical-align: middle;
+	position: relative;
+}
+.ba-cities {
+	font-size: 0;
+	padding: 0;
+	background: #fff;
+}
+.ba-cities li:nth-child(1){
+	background-color: #3399CC;
+	width: 50%;
+}
+.ba-cities li:nth-child(2){
+	background-color: #33CCCC;
+	width: 25%;
+}
+.ba-cities li:nth-child(3){
+	background-color: #996699;
+	width: 25%;
+}
+.ba-cities li:nth-child(4){
+	background-color: #C24747;
+	width: 25%;
+}
+.ba-cities li:nth-child(5){
+	background-color: #E2674A;
+	width: 25%;
+}
+.ba-cities li:nth-child(6){
+	background-color: #FFCC66;
+	width: 25%;
+}
+.ba-cities li:nth-child(7){
+	background-color: #99CC99;
+	width: 25%;
+}
+.ba-cities li:nth-child(8){
+	background-color: #669999;
+	width: 25%;
+}
+.ba-cities li:nth-child(9){
+	background-color: #CC6699;
+	width: 50%;
+}
+.ba-cities li:nth-child(10){
+	background-color: #339966;
+	width: 25%;
+}
+.ba-cities li:nth-child(11){
+	background-color: #666699;
+	width: 100%;
+}
+
+.ba-temperatue:after {
+	content: "°C"
+}
+.ba-cities:hover > li {
+  opacity: .6;
+}
+.ba-cities li:hover {
+  opacity: 1;
+}
+.ba-cities li:active {
+  background: #ffffff;
+}
